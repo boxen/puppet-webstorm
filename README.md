@@ -1,15 +1,7 @@
 # WebStorm
 
-[![Build Status](https://api.travis-ci.org/boxen/puppet-webstorm.png?branch=master)](https://travis-ci.org/boxen/puppet-webstorm) 
+Deprecated in favour of [brewcask][1] and [Boxen's in built support for
+homebrew/brewcask][2].
 
-Install [WebStorm](http://www.jetbrains.com/webstorm/), a Javascript IDE
-
-## Usage
-
-```puppet
-include webstorm
-```
-
-## Required Puppet Modules
-
-* `boxen`
+[1]: https://caskroom.github.io/
+[2]: https://github.com/boxen/puppet-boxen/blob/master/manifests/personal.pp#L14-L17
